@@ -5,8 +5,8 @@
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/counter.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+        <link type="text/css" rel="stylesheet" href="css/counter.css">
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -16,7 +16,7 @@
         <!-- Countdown -->
         <script type="text/javascript" src="js/countdown.min.js"></script>
         <script>
-            window.onload = function() {
+            window.onload = function () {
                 var scheduledDays = new Date(),
                         myHours = 1,
                         myMinutes = 49,
@@ -27,7 +27,7 @@
                 var timer1 =
                         countdown(
                                 scheduledDays,
-                                function(ts) {
+                                function (ts) {
                                     if (ts.value <= 0) {
                                         var block = document.getElementsByClassName('countdown');
                                         for (var i = 0; i < block.length; i++) {
@@ -284,7 +284,7 @@
         <div class="slc7 area">
             <div class="wrapper">
                 <div class="triangle type1"></div>
-                <form action="http://c.cpam.pro/{landing_id}/success?product_id={product_ids}&amp;{mleads_url}" method="post" onsubmit="return cartTelCheck('phone', true);" class="order" id="orderform">
+                <form action="" class="order" id="orderform">
                     <h1 class="border-box">Заполните форму заказа:</h1>
                     <label>Страна:</label>
                     <select onchange="javascript: cartChangeGeo(this.value);">
