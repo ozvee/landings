@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext);
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.clear{
+    clear: both;
+}
+body{
+    font:14px 'PT Sans', sans-serif;
+    font-weight:400;
+    background: #f5fafe;	
+}
+.wrapper{
+    width: 1069px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.content-left{
+    float: left;
+}
+.content-right{
+    float: right;
+    height: 100%;
+}
+div.slc{
+    width: 100%;
+    min-width: 1200px;
+    background-position: center !important;
+}
+
+div.slc1{
+    background: url('../images/slc_01.jpg') no-repeat;
+    height:243px;
+}
+div.slc2{
+    background: url(../images/slc_02.jpg) no-repeat;
+    height:472px;
+}
+div.slc3{
+    background: url(../images/slc_03.jpg) no-repeat;
+    height:262px;
+}
+div.slc4{
+    background: url(../images/slc_04.jpg) no-repeat;
+    height:473px;
+}
+div.slc5{
+    background: url(../images/slc_05.jpg) no-repeat;
+    height:330px;
+}
+div.slc6{
+    background: url(../images/slc_06.jpg) no-repeat;
+    height:392px;
+}
+div.slc7{
+    background: url(../images/slc_07.jpg) no-repeat;
+    height:381px;
+}
+div.slc8{
+    background: url(../images/slc_08.jpg) no-repeat;
+    height:238px;
+}
+div.slc9{
+    background: url(../images/slc_09.jpg) no-repeat;
+    height:256px;
+}
+div.slc10{
+    background: url(../images/slc_10.jpg) no-repeat;
+    height:254px;
+}
+div.slc11{
+    background: url(../images/slc_11.jpg) no-repeat;
+    height:329px;
+}
+div.slc12{
+    background: url(../images/slc_12.jpg) no-repeat;
+    height:297px;
+}
+div.slc13{
+    background: url(../images/slc_13.jpg) no-repeat;
+    height:203px;
+}
+button.green{
+    background: url(../images/btBg.png) no-repeat;
+    width:297px;
+    height:96px;
+    padding:20px;
+    text-transform: uppercase;
+    font: 29.39px 'PT Sans Narrow', sans-serif;
+    color:#183641;
+    font-weight: 700;
+    font-style:italic;
+    text-indent: -20px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    padding-bottom: 40px;
+}
+div.slc2 div.content{
+    width: 322px;
+    height:365px;
+    float:right;
+    margin-top: 112px;
+    font: 13px 'PT Sans', sans-serif;
+    font-weight: 600;
+    color:#352c32;
+    text-align: center;
+}
+div.slc2 div.content form{
+    height: 212px;
+    margin-top: 38px;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-top: 22px;
+}
+div.slc2 div.content button.green{
+    margin-left: -13px;
+}
+div.slc2 div.content form span{
+    width:60px;
+    display: inline-block;
+    text-align: right;
+}
+div.slc2 div.content form input[type="text"], div.content select{
+    margin-top:8px;
+    margin-left: 12px;
+    width:168px;
+    height:22px;
+    border:1px solid #d4a6d3;
+}
+div.slc2 div.content h1{
+    text-transform: uppercase;
+    font: 22px 'PT Sans Narrow', sans-serif;
+    color:#00a3ff;
+    font-weight:700;
+    width: 322px;
+    float: right;
+    clear: both;
+    padding-top: 10px;
+    letter-spacing: -0.7px;
+    text-indent: -9px;
+}
+div.slc6 button.green{
+    margin-left: 50%;
+    position: relative;
+    left: -110px;
+    top: 249px;
+}
+div.slc11 button.green{
+    margin-left: 50%;  position: relative;  
+    left: 194px;  
+    top: 220px;   
+}
+div.slc13{
+    text-align: center;
+    padding-top: 121px;
+    box-sizing: border-box;
+    font:13px 'Open Sans', sans-serif;
+    color:#2e2e2e;
+    line-height: 22px;
+    font-weight: 400;
+}
+div.slc13 span{
+    margin-right: 28px;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .wrapper, div.slc2 div.content form, div.slc13{
+        -moz-box-sizing: border-box;
+    }
+}
+/*EOF FIREFOX CSS HACK*/
